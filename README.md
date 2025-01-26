@@ -24,8 +24,8 @@ Make sure you have the following installed:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/natural-disaster-tracker.git
-cd natural-disaster-tracker
+git clone https://github.com/ZaaidAhmed/The-Natural-Disaster-Tracker.git
+cd event--tailwind
 ```
 ### 2. Install dependencies
 ```bash
@@ -35,23 +35,14 @@ npm install
 Using yarn:
 ```bash
 yarn install
-
-
 ```
 ### 3. Run the development server
 ```bash
 npm run dev
-
-
-
 ```
 Using yarn:
 ```bash
 yarn dev
-
-
-
-
 ```
 Your app should now be running on http://localhost:3000.
 
