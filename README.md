@@ -1,4 +1,4 @@
-# Natural Disaster Tracker
+# [Natural Disaster Tracker](https://natural-disaster-tracker.onrender.com/)
 
 This project is a **Natural Disaster Tracker** application that uses the NASA Open Earth Observatory (EONET) API to fetch data related to natural disasters and display it on a map. Users can select different disaster categories (such as wildfires, earthquakes, etc.) to view disaster events and their locations on the map.
 
