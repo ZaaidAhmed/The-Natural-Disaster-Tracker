@@ -1,17 +1,31 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Natural Disaster Tracker
+
+This project is a **Natural Disaster Tracker** application that uses the NASA Open Earth Observatory (EONET) API to fetch data related to natural disasters and display it on a map. Users can select different disaster categories (such as wildfires, earthquakes, etc.) to view disaster events and their locations on the map.
+
+## Features
+- **Category Selection**: Users can choose from various disaster categories such as wildfires, earthquakes, etc.
+- **Interactive Map**: The app displays disaster events on an interactive map using **React-Leaflet** and **OpenStreetMap**.
+- **Dynamic Data Fetching**: The app fetches disaster data from the NASA EONET API based on the selected category and dynamically updates the map with disaster events.
+
+## Tech Stack
+- **Next.js**: For building the React app and handling server-side rendering (SSR).
+- **React**: For building the user interface components.
+- **Leaflet**: For rendering the map and placing markers on it.
+- **OpenStreetMap**: Used as the base map for the application.
+- **NASA EONET API**: Provides data related to natural disasters.
+
+## Prerequisites
+Make sure you have the following installed:
+- **Node.js** (>= 14.x.x)
+- **npm** or **yarn**
 
 ## Getting Started
 
-First, run the development server:
+### 1. Clone the repository
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/your-username/natural-disaster-tracker.git
+cd natural-disaster-tracker
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
