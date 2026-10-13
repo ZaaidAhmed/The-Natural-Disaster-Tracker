@@ -42,3 +42,31 @@ This project uses NASA’s [EONET API](https://eonet.gsfc.nasa.gov/) for event c
 ## Project notes
 
 The project is a portfolio application focused on API integration, geospatial UI, and clear presentation of changing public data.
+
+## Architecture
+
+    Browser
+      |
+      v
+    Next.js / React UI
+      |
+      +--> Category filter
+      |
+      +--> React-Leaflet map
+      |
+      v
+    NASA EONET API
+      |
+      v
+    Natural-disaster event data
+      |
+      v
+    Markers and event details on the map
+
+## How it works
+
+1. The user opens the application and selects a disaster category.
+2. The frontend requests matching event data from NASA EONET.
+3. The response is mapped into event locations and display data.
+4. React-Leaflet renders the locations with OpenStreetMap as the map layer.
+5. Changing the category refreshes the displayed events.
