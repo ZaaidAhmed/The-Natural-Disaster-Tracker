@@ -1,3 +1,8 @@
+[![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)](https://react.dev/)
+[![NASA EONET](https://img.shields.io/badge/Data-NASA%20EONET-0B3D91?style=flat)](https://eonet.gsfc.nasa.gov/)
+[![Live demo](https://img.shields.io/badge/Demo-live-2ea44f?style=flat)](https://natural-disaster-tracker.onrender.com/)
+
 # Natural Disaster Tracker
 
 [Live demo](https://natural-disaster-tracker.onrender.com/)
